@@ -1,4 +1,4 @@
-package com.example.tinder_ai_backend;
+package com.example.tinderaibackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
