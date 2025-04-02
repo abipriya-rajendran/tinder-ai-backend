@@ -6,6 +6,9 @@ import com.example.tinderaibackend.conversation.ConversationRepository;
 import com.example.tinderaibackend.profiles.Gender;
 import com.example.tinderaibackend.profiles.Profile;
 import com.example.tinderaibackend.profiles.ProfileRepository;
+import org.springframework.ai.chat.model.ChatResponse;
+import org.springframework.ai.chat.prompt.Prompt;
+import org.springframework.ai.ollama.OllamaChatModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -18,10 +21,13 @@ import java.util.List;
 public class TinderAiBackendApplication implements CommandLineRunner {
 
 	@Autowired
-	ProfileRepository profileRepository;
+	private ProfileRepository profileRepository;
 
 	@Autowired
-	ConversationRepository conversationRepository;
+	private ConversationRepository conversationRepository;
+
+	@Autowired
+	private OllamaChatModel chatModel;
 
 	public static void main(String[] args) {
 		SpringApplication.run(TinderAiBackendApplication.class, args);
@@ -29,6 +35,10 @@ public class TinderAiBackendApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) {
+		Prompt prompt = new Prompt("What is langchain?");
+		ChatResponse chatResponse = chatModel.call(prompt);
+		System.out.println(chatResponse.getResult().getOutput());
+
 		profileRepository.deleteAll();
 		conversationRepository.deleteAll();
 
