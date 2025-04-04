@@ -1,0 +1,222 @@
+[
+  {
+    "id": "3a0def1e-e83c-4df9-a279-645d179e18b2",
+    "firstName": "James",
+    "lastName": "Williams",
+    "age": 29,
+    "ethnicity": "White",
+    "gender": "MALE",
+    "bio": "Adventure seeker and professional photographer. My life revolves around capturing the perfect shot and exploring new places. Avid reader and coffee aficionado. Dreaming of visiting all the national parks in the US.",
+    "imageUrl": "3a0def1e-e83c-4df9-a279-645d179e18b2.jpg",
+    "myersBriggsPersonalityType": "ENFP"
+  },
+  {
+    "id": "aeb0f0a7-65a3-486c-961c-e67d24456845",
+    "firstName": "David",
+    "lastName": "Johnson",
+    "age": 31,
+    "ethnicity": "Black",
+    "gender": "MALE",
+    "bio": "Software engineer with a love for coding and a passion for basketball. Weekends are for trying out new recipes and perfecting my BBQ skills. If you love dogs and have a sense of humor, we’ll get along great.",
+    "imageUrl": "aeb0f0a7-65a3-486c-961c-e67d24456845.jpg",
+    "myersBriggsPersonalityType": "INTJ"
+  },
+  {
+    "id": "eb849e2a-31ef-476b-8417-c2cef1d6932e",
+    "firstName": "Luis",
+    "lastName": "Garcia",
+    "age": 26,
+    "ethnicity": "Hispanic",
+    "gender": "MALE",
+    "bio": "Fitness trainer and health nut. Always on the move and looking for the next challenge. Huge fan of soccer and hiking. I believe in living life to the fullest and eating well. What’s your favorite smoothie recipe?",
+    "imageUrl": "eb849e2a-31ef-476b-8417-c2cef1d6932e.jpg",
+    "myersBriggsPersonalityType": "ESTP"
+  },
+  {
+    "id": "2d94774a-a93e-4421-9118-526a012da558",
+    "firstName": "Wei",
+    "lastName": "Zhang",
+    "age": 28,
+    "ethnicity": "Asian",
+    "gender": "MALE",
+    "bio": "Tech entrepreneur with a passion for innovation. Love late-night coding sessions and brainstorming new ideas. Big on travel, especially to places off the beaten path. Let’s debate the merits of different programming languages!",
+    "imageUrl": "2d94774a-a93e-4421-9118-526a012da558.jpg",
+    "myersBriggsPersonalityType": "ENTJ"
+  },
+  {
+    "id": "89c43c4a-0516-48f6-a0b2-72be2508dc75",
+    "firstName": "Ravi",
+    "lastName": "Kumar",
+    "age": 33,
+    "ethnicity": "Indian",
+    "gender": "MALE",
+    "bio": "Medical doctor with a love for helping others. When I’m not at the hospital, I enjoy playing chess and exploring new cuisines. I’m also a huge fan of classic rock. Do you know any good hiking trails?",
+    "imageUrl": "89c43c4a-0516-48f6-a0b2-72be2508dc75.jpg",
+    "myersBriggsPersonalityType": "INFJ"
+  },
+  {
+    "id": "059e35cf-9afb-4012-b23c-8ebd56a6d988",
+    "firstName": "Alex",
+    "lastName": "Brown",
+    "age": 24,
+    "ethnicity": "White",
+    "gender": "MALE",
+    "bio": "Graphic designer and artist. I love creating things that make people smile. Skateboarding, video games, and late-night movie marathons are my jam. Fun fact: I can solve a Rubik’s cube in under a minute.",
+    "imageUrl": "059e35cf-9afb-4012-b23c-8ebd56a6d988.jpg",
+    "myersBriggsPersonalityType": "ISFP"
+  },
+  {
+    "id": "86013f70-7ec0-4add-98de-b380ce328ce5",
+    "firstName": "Henry",
+    "lastName": "Robinson",
+    "age": 30,
+    "ethnicity": "Black",
+    "gender": "MALE",
+    "bio": "Financial analyst who enjoys the thrill of the stock market. In my free time, I like to work out, cook, and read about history. A bit of a foodie and love exploring new restaurants. What’s your favorite place to eat?",
+    "imageUrl": "86013f70-7ec0-4add-98de-b380ce328ce5.jpg",
+    "myersBriggsPersonalityType": "ISTJ"
+  },
+  {
+    "id": "e7b2bf0c-de87-41d9-9048-279c23cc87b8",
+    "firstName": "Carlos",
+    "lastName": "Martinez",
+    "age": 25,
+    "ethnicity": "Hispanic",
+    "gender": "MALE",
+    "bio": "Mechanical engineer with a passion for fixing things. Car enthusiast and weekend DIYer. Love spending time outdoors, especially camping and fishing. Do you enjoy road trips?",
+    "imageUrl": "e7b2bf0c-de87-41d9-9048-279c23cc87b8.jpg",
+    "myersBriggsPersonalityType": "ESTJ"
+  },
+  {
+    "id": "46158d0b-b4bc-4817-97b1-1058e225ce9e",
+    "firstName": "Takeshi",
+    "lastName": "Kimura",
+    "age": 32,
+    "ethnicity": "Asian",
+    "gender": "MALE",
+    "bio": "Chef and food lover. I’m passionate about creating new dishes and experimenting with flavors. When I’m not in the kitchen, I enjoy traveling and photography. If you love food as much as I do, let’s cook together!",
+    "imageUrl": "46158d0b-b4bc-4817-97b1-1058e225ce9e.jpg",
+    "myersBriggsPersonalityType": "ENFJ"
+  },
+  {
+    "id": "b391a0dc-021e-4a39-b938-a537aa9b0363",
+    "firstName": "Arjun",
+    "lastName": "Singh",
+    "age": 27,
+    "ethnicity": "Indian",
+    "gender": "MALE",
+    "bio": "Civil engineer with a love for building things and solving problems. Big fan of cricket and Bollywood movies. Enjoy exploring new places and learning about different cultures. Have you ever been to India?",
+    "imageUrl": "b391a0dc-021e-4a39-b938-a537aa9b0363.jpg",
+    "myersBriggsPersonalityType": "ISFJ"
+  },
+  {
+    "id": "8ee9242a-36e9-42bf-a8cd-0e342a014172",
+    "firstName": "Liam",
+    "lastName": "Clark",
+    "age": 28,
+    "ethnicity": "White",
+    "gender": "MALE",
+    "bio": "Entrepreneur and adventure enthusiast. I love the outdoors and spend my weekends hiking, kayaking, and rock climbing. Always up for a new challenge and meeting interesting people. What’s the most exciting place you’ve visited?",
+    "imageUrl": "8ee9242a-36e9-42bf-a8cd-0e342a014172.jpg",
+    "myersBriggsPersonalityType": "ENTP"
+  },
+  {
+    "id": "89ca71a5-61f8-4b87-b746-3f47f0640168",
+    "firstName": "Ethan",
+    "lastName": "Lewis",
+    "age": 34,
+    "ethnicity": "Black",
+    "gender": "MALE",
+    "bio": "Real estate agent with a passion for architecture and design. In my spare time, I enjoy playing the guitar and writing songs. Big fan of road trips and exploring new cities. What’s your favorite city?",
+    "imageUrl": "89ca71a5-61f8-4b87-b746-3f47f0640168.jpg",
+    "myersBriggsPersonalityType": "ESFJ"
+  },
+  {
+    "id": "76e7345a-8b43-4402-b9c5-a2d51775ec7c",
+    "firstName": "Mateo",
+    "lastName": "Hernandez",
+    "age": 30,
+    "ethnicity": "Hispanic",
+    "gender": "MALE",
+    "bio": "Fitness coach and nutrition expert. I love helping people achieve their health goals. Passionate about soccer and salsa dancing. Always up for a new adventure. Do you like to dance?",
+    "imageUrl": "76e7345a-8b43-4402-b9c5-a2d51775ec7c.jpg",
+    "myersBriggsPersonalityType": "ESTP"
+  },
+  {
+    "id": "7f8a4c5b-5fe6-4b02-9cc0-c8c0e46bb1ef",
+    "firstName": "Jun",
+    "lastName": "Lee",
+    "age": 29,
+    "ethnicity": "Asian",
+    "gender": "MALE",
+    "bio": "Software developer with a love for technology and innovation. Enjoy gaming, coding, and building cool gadgets. Big fan of sci-fi movies and anime. Let’s talk about our favorite series!",
+    "imageUrl": "7f8a4c5b-5fe6-4b02-9cc0-c8c0e46bb1ef.jpg",
+    "myersBriggsPersonalityType": "INTP"
+  },
+  {
+    "id": "5f69a33f-d536-4baa-a3bd-916f50639b7e",
+    "firstName": "Samir",
+    "lastName": "Shah",
+    "age": 31,
+    "ethnicity": "Indian",
+    "gender": "MALE",
+    "bio": "Marketing specialist who loves creative campaigns. Enjoys traveling and discovering new cultures. A foodie at heart and always looking for the next best restaurant. What’s your favorite travel destination?",
+    "imageUrl": "5f69a33f-d536-4baa-a3bd-916f50639b7e.jpg",
+    "myersBriggsPersonalityType": "ENFP"
+  },
+  {
+    "id": "ddd04ef0-727f-4c7f-a402-6feda1a4fcde",
+    "firstName": "Ryan",
+    "lastName": "Young",
+    "age": 25,
+    "ethnicity": "White",
+    "gender": "MALE",
+    "bio": "Architect and design enthusiast. Love sketching and bringing ideas to life. Enjoy playing basketball and cycling on weekends. Fun fact: I’ve built a treehouse. Want to see?",
+    "imageUrl": "ddd04ef0-727f-4c7f-a402-6feda1a4fcde.jpg",
+    "myersBriggsPersonalityType": "ISFP"
+  },
+  {
+    "id": "907e6ff3-d262-46d0-96c2-01c9cc3d32ff",
+    "firstName": "Joshua",
+    "lastName": "Scott",
+    "age": 28,
+    "ethnicity": "Black",
+    "gender": "MALE",
+    "bio": "Music producer with a love for creating beats. Passionate about music and always looking for new sounds. Enjoys traveling and trying new foods. Do you play any instruments?",
+    "imageUrl": "907e6ff3-d262-46d0-96c2-01c9cc3d32ff.jpg",
+    "myersBriggsPersonalityType": "ENFJ"
+  },
+  {
+    "id": "8855ed9b-00b8-45b7-9cf9-a05c3c54a771",
+    "firstName": "Gabriel",
+    "lastName": "Perez",
+    "age": 26,
+    "ethnicity": "Hispanic",
+    "gender": "MALE",
+    "bio": "Graphic designer with a love for art and creativity. Enjoys painting and photography. Big fan of hiking and exploring nature. Let’s create something beautiful together!",
+    "imageUrl": "8855ed9b-00b8-45b7-9cf9-a05c3c54a771.jpg",
+    "myersBriggsPersonalityType": "INFP"
+  },
+  {
+    "id": "01f4c42f-86cb-45e6-ad2b-05430afb3639",
+    "firstName": "Jin",
+    "lastName": "Park",
+    "age": 32,
+    "ethnicity": "Asian",
+    "gender": "MALE",
+    "bio": "Chef with a passion for culinary arts. Love experimenting with new recipes and flavors. Enjoys traveling and learning about different cuisines. What’s your favorite dish?",
+    "imageUrl": "01f4c42f-86cb-45e6-ad2b-05430afb3639.jpg",
+    "myersBriggsPersonalityType": "ESFP"
+  },
+  {
+    "id": "48f57947-d4a1-46f3-9b47-10a34df28a2d",
+    "firstName": "Vikram",
+    "lastName": "Reddy",
+    "age": 30,
+    "ethnicity": "Indian",
+    "gender": "MALE",
+    "bio": "Data scientist who loves crunching numbers and solving complex problems. Avid reader and chess player. Enjoys long walks and deep conversations. What’s the most interesting book you’ve read?",
+    "imageUrl": "48f57947-d4a1-46f3-9b47-10a34df28a2d.jpg",
+    "myersBriggsPersonalityType": "INTJ"
+  }
+]
