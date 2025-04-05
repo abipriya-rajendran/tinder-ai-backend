@@ -20,22 +20,6 @@ public class ConversationController {
         this.profileRepository = profileRepository;
     }
 
-    @PostMapping("/conversations")
-    public Conversation createNewConversation(@RequestBody CreateConversationRequest request) {
-        profileRepository.findById(request.profileId())
-                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND,
-                        "Unable to find the profile with Id : " + request.profileId())
-                );
-
-        Conversation conversation = new Conversation(
-                UUID.randomUUID().toString(),
-                request.profileId(),
-                new ArrayList<>()
-        );
-        conversationRepository.save(conversation);
-        return conversation;
-    }
-
     @GetMapping("/conversations/{conversationId}")
     public Conversation getConversation(@PathVariable String conversationId) {
         return conversationRepository.findById(conversationId)
