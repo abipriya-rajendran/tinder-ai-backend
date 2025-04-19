@@ -5,10 +5,7 @@ import com.example.tinderaibackend.conversation.ConversationRepository;
 import com.example.tinderaibackend.profiles.Profile;
 import com.example.tinderaibackend.profiles.ProfileRepository;
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.ArrayList;
@@ -29,13 +26,14 @@ public class MatchController {
         this.matchRepository = matchRepository;
     }
 
+    @CrossOrigin(origins = "*")
     @PostMapping("/matches")
     public Match createNewMatch(@RequestBody CreateMatchRequest request) {
         Profile profile = profileRepository.findById(request.profileId())
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND,
                         "Unable to find the profile with Id : " + request.profileId())
                 );
-        // TODO: make sure no existing conversation with this profile
+
         Conversation conversation = new Conversation(
                 UUID.randomUUID().toString(),
                 profile.id(),
@@ -48,7 +46,8 @@ public class MatchController {
         return match;
     }
 
-    @GetMapping("/match/matches")
+    @CrossOrigin(origins = "*")
+    @GetMapping("/matches")
     public List<Match> getAllMatches() {
         return matchRepository.findAll();
     }
