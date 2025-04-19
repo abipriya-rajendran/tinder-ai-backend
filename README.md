@@ -11,7 +11,7 @@ This is a simple Tinder clone built with a swipe-based UI, integrated with AI-ge
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React ([tinder-ai-frontend](https://www.youtube.com/watch?v=k3fSQpz2Esg))
+- **Frontend**: React ([tinder-ai-frontend](https://github.com/abipriya-rajendran/tinder-ai-frontend/))
 - **Backend**: Spring
 - **Database**: MongoDB
 - **AI Integration**: Ollama with LLaMA model
