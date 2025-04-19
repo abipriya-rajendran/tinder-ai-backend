@@ -7,13 +7,13 @@ This is a simple Tinder clone built with a swipe-based UI, integrated with AI-ge
 - Swipe left/right on user profiles
 - Match and chat functionality
 - AI-powered responses for conversations (via LLaMA model + Ollama)
-- MongoDB-based user and chat storage
+- MongoDB (Dockerized) for user and chat storage
 
 ## 🛠️ Tech Stack
 
 - **Frontend**: React ([tinder-ai-frontend](https://github.com/abipriya-rajendran/tinder-ai-frontend/))
 - **Backend**: Spring
-- **Database**: MongoDB
+- **Database**: MongoDB (via Docker). Make sure Docker is installed and running
 - **AI Integration**: Ollama with LLaMA model
 
 ## 🧠 AI Setup
